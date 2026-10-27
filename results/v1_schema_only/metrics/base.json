@@ -1,0 +1,44 @@
+{
+  "model": "base",
+  "n": 500,
+  "execution_accuracy": 0.522,
+  "valid_sql_rate": 0.92,
+  "by_complexity": {
+    "basic SQL": {
+      "correct": 185,
+      "n": 289,
+      "accuracy": 0.6401
+    },
+    "aggregation": {
+      "correct": 44,
+      "n": 99,
+      "accuracy": 0.4444
+    },
+    "single join": {
+      "correct": 22,
+      "n": 58,
+      "accuracy": 0.3793
+    },
+    "subqueries": {
+      "correct": 8,
+      "n": 19,
+      "accuracy": 0.4211
+    },
+    "window functions": {
+      "correct": 0,
+      "n": 18,
+      "accuracy": 0.0
+    },
+    "multiple_joins": {
+      "correct": 2,
+      "n": 13,
+      "accuracy": 0.1538
+    },
+    "set operations": {
+      "correct": 0,
+      "n": 4,
+      "accuracy": 0.0
+    }
+  },
+  "seconds_per_question": 0.445
+}

@@ -1,0 +1,15 @@
+# Install PyTorch with CUDA FIRST (see README), then: pip install -r requirements.txt
+transformers
+peft
+bitsandbytes
+accelerate
+datasets
+requests
+tqdm
+matplotlib
+pytest
+# needed by llama.cpp's convert_hf_to_gguf.py in step 5
+gguf
+sentencepiece
+protobuf
+safetensors

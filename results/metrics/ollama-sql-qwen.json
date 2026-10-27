@@ -1,0 +1,44 @@
+{
+  "model": "ollama-sql-qwen",
+  "n": 500,
+  "execution_accuracy": 0.762,
+  "valid_sql_rate": 0.978,
+  "by_complexity": {
+    "basic SQL": {
+      "correct": 248,
+      "n": 289,
+      "accuracy": 0.8581
+    },
+    "aggregation": {
+      "correct": 68,
+      "n": 99,
+      "accuracy": 0.6869
+    },
+    "single join": {
+      "correct": 41,
+      "n": 58,
+      "accuracy": 0.7069
+    },
+    "subqueries": {
+      "correct": 12,
+      "n": 19,
+      "accuracy": 0.6316
+    },
+    "window functions": {
+      "correct": 3,
+      "n": 18,
+      "accuracy": 0.1667
+    },
+    "multiple_joins": {
+      "correct": 7,
+      "n": 13,
+      "accuracy": 0.5385
+    },
+    "set operations": {
+      "correct": 2,
+      "n": 4,
+      "accuracy": 0.5
+    }
+  },
+  "seconds_per_question": 2.579
+}

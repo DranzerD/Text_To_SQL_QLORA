@@ -1,0 +1,9 @@
+﻿.venv/
+__pycache__/
+.pytest_cache/
+data/
+outputs/
+llama.cpp/
+demo/shop.db
+# personal interview prep, keep private
+PROJECT_GUIDE.md

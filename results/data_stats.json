@@ -1,0 +1,41 @@
+{
+  "train_split": {
+    "examined": 13996,
+    "kept": 8200,
+    "dropped": {
+      "reference SQL fails in SQLite": 2699,
+      "not a read-only task": 1455,
+      "reference SQL returns no rows": 1274,
+      "context fails in SQLite": 359,
+      "not a SELECT query": 9
+    }
+  },
+  "test_split": {
+    "examined": 888,
+    "kept": 500,
+    "dropped": {
+      "reference SQL fails in SQLite": 165,
+      "not a read-only task": 103,
+      "reference SQL returns no rows": 94,
+      "context fails in SQLite": 26
+    }
+  },
+  "train_complexity": {
+    "window functions": 257,
+    "aggregation": 1744,
+    "basic SQL": 4305,
+    "subqueries": 422,
+    "single join": 1071,
+    "multiple_joins": 130,
+    "set operations": 71
+  },
+  "eval_complexity": {
+    "basic SQL": 289,
+    "aggregation": 99,
+    "single join": 58,
+    "window functions": 18,
+    "multiple_joins": 13,
+    "set operations": 4,
+    "subqueries": 19
+  }
+}
